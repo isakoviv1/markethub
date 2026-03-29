@@ -26,3 +26,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/markethub
     user: markethub
     password: markethub123
+
+jwt:
+  secret: qgC17PX0z1Cu2ZZSEnoUcYC7MqZd959WwIQEYsKrKrw=
+  expiration: 900000
+
