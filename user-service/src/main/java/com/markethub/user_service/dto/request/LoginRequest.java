@@ -10,11 +10,13 @@ public class LoginRequest {
 
     @NotBlank(message = "Password is mandatory")
     private String password;
+    public LoginRequest() {}
 
     LoginRequest(@NotBlank(message = "Email is mandatory") @Email String email, @NotBlank(message = "Password is mandatory") String password) {
         this.email = email;
         this.password = password;
     }
+
 
     public static LoginRequestBuilder builder() {
         return new LoginRequestBuilder();

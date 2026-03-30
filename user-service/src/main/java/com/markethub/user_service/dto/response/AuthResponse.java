@@ -3,6 +3,7 @@ package com.markethub.user_service.dto.response;
 public class AuthResponse {
     private String accessToken;
     private String tokenType;
+    public AuthResponse() {}
 
     AuthResponse(String accessToken, String tokenType) {
         this.accessToken = accessToken;

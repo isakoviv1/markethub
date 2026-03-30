@@ -8,6 +8,8 @@ public class UserProfileResponse {
     private String email;
     private Role role;
 
+    public UserProfileResponse() {}
+
     UserProfileResponse(String firstname, String lastname, String email, Role role) {
         this.firstname = firstname;
         this.lastname = lastname;

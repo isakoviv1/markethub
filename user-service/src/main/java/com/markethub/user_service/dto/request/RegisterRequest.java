@@ -24,6 +24,8 @@ public class RegisterRequest {
         this.lastname = lastname;
     }
 
+    public RegisterRequest() {}
+
     public static RegisterRequestBuilder builder() {
         return new RegisterRequestBuilder();
     }
